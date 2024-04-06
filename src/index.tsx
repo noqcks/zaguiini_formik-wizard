@@ -1,5 +1,5 @@
 import { Form as DefaultForm, Formik, FormikProps } from 'formik'
-import produce from 'immer'
+import { produce } from 'immer'
 import React from 'react'
 import { Step as AlbusStep, Steps as AlbusSteps, Wizard as AlbusWizard, WizardContext } from 'react-albus'
 
